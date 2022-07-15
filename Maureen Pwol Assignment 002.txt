@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions in JavaScript</title>
+    <script src="index.js" defer></script> <!-- Link to external JavaScript 
+        file -->
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #85C1E9;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #2E86C1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color:#85C1E9;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Mautechy</h2>
+<p>This is my first project, practing to see how well I'm picking the lessons here.</p>
+<p>The journey so far has been quite challenging cause my PC drive just bailed on me...</p>
+<p><strong>But here is the Goodnews... not giving up:</strong> I'm gonna stick to it no matter how long it takes, its just gonna be delayed for awhile.</p>
+
+<header>
+  <h2>Project 1</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="https://first-dessign32.w3spaces.com/form.html">Register</a></li>
+      <li><a href="https://first-dessign32.w3spaces.com/JsLoginAction.html">Login</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>The project</h1>
+    <p>Giving that student are often scared of examination, this is aim at letting student explore on a adventrous trip into new fun methods in learning things that would seemingly look boring on a typical day.</p>
+    <p>It is meant to spore student to do more, aspire more and achieve more while learning. It in turn ignites your imaginative power.</p>
+  </article>
+</section>
+
+<footer>
+  <p>The One Projects that adds spice to learning!...</p>
+</footer>
+
+</body>
+</html>
+
+
+</head>
+<body>  
+    
+</body>
+</html>
+      
